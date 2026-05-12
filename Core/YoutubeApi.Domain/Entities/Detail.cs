@@ -26,7 +26,7 @@ namespace YoutubeApi.Domain.Entities
 
         // Bir detail bir Category'e bağlı
         public required int CategoryId { get; set; }
-        public required Category Category { get; set; }
+        public  Category Category { get; set; }
 
     }
 
