@@ -14,7 +14,7 @@ namespace YoutubeApi.Domain.Entities
         public required string Description { get; set; }
         public required decimal Price { get; set; }
         public required decimal Discount { get; set; }  
-        public required Brand BrandId { get; set; }
+        public int BrandId { get; set; }
         public Brand Brand { get; set; }
 
         // Bir kategorinin birden fazla ürünü olabilir, otomatik olarak oluşturulan bir ilişki tablosu ile ilişkilendirilir
